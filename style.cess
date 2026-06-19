@@ -7,9 +7,10 @@ body {
     color: #333;
 }
 
+/* ส่วนหัวเว็บ */
 header {
     background: #4CAF50;
-    color: white;
+    color: green;
     padding: 20px 0;
     text-align: center;
 }
@@ -22,35 +23,31 @@ header p {
     margin: 5px 0 0;
 }
 
+/* เนื้อหา */
 section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: white;
+    background: green;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* หัวข้อ */
 h2 {
-    color: #4CAF50; /* สีของหัวข้อ */
+    color: #4CAF50;
 }
 
-.project {
-    margin-bottom: 20px;
-}
-
-.project h3 {
-    margin: 0 0 10px;
-    color: #333;
-}
-
+/* รายการ */
 ul {
-    list-style-type: square; /* ใช้จุดสี่เหลี่ยมแทนจุดกลม */
-    padding-left: 20px;
+    list-style-type: square;
 }
 
+/* ส่วนท้าย */
 footer {
     text-align: center;
-    padding: 10px 0;
-    background: #333; /* สีพื้นหลังเข้ม */
-    color: white;
+    padding: 10px;
+    background: #333;
+    color: green;
     margin-top: 20px;
-}
+}sty
